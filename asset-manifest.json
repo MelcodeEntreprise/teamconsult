@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/teamconsult/static/css/main.59b0de8a.css",
+    "main.js": "/teamconsult/static/js/main.16133c63.js",
+    "static/media/woman.png": "/teamconsult/static/media/woman.5518e8d065fe72dab93a.png",
+    "static/media/logo.png": "/teamconsult/static/media/logo.7b473007cbd99c34a65e.png",
+    "static/media/home.png": "/teamconsult/static/media/home.25548f1cb1418b0f3439.png",
+    "static/media/Gumela.ttf": "/teamconsult/static/media/Gumela.bf98a454247ad9695fde.ttf",
+    "static/media/coche.png": "/teamconsult/static/media/coche.b26e2ccee7ab3aad71c9.png",
+    "static/media/avatar3.svg": "/teamconsult/static/media/avatar3.895992b50fb6daf2ac88a4fd0bfc7989.svg",
+    "static/media/avatar1.svg": "/teamconsult/static/media/avatar1.b5689277955c9ebe3fb6b8aa6c109091.svg",
+    "static/media/avatar2.svg": "/teamconsult/static/media/avatar2.0a4ef5fe3a148676748376617ca1dab6.svg",
+    "static/media/twitter.svg": "/teamconsult/static/media/twitter.5df22c8e0474ab0fdbd6d43fb971327a.svg",
+    "static/media/linkedin.svg": "/teamconsult/static/media/linkedin.0684d24595139954f044c239634c94e6.svg",
+    "static/media/facebook.svg": "/teamconsult/static/media/facebook.34645954b8be28b3b37962da363a1f68.svg",
+    "index.html": "/teamconsult/index.html",
+    "main.59b0de8a.css.map": "/teamconsult/static/css/main.59b0de8a.css.map",
+    "main.16133c63.js.map": "/teamconsult/static/js/main.16133c63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59b0de8a.css",
+    "static/js/main.16133c63.js"
+  ]
+}

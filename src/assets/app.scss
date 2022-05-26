@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Gumela";
+    src: url(./fonts/Gumela.ttf);
+}
+
+$black: #000;
+$green: #00c092;
+$grey: #707070;
+$red: #e93737;
+$yellow: #dbc70d;
+$font: Gumela, sans-serif;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: $font;
+    font-size: 16px;
+    color: $grey;
+    overflow-x: hidden;
+}
+
+section{
+    margin: 5rem 0;
+}
+
+.app{
+    padding: .5rem 3rem;
+   
+}
+
+h1, h2, h3{
+    color: $black;
+}
+
+p{
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: $black;
+    transition: .3s ease-in-out;
+
+    &:hover{
+        color: $green;
+    }
+}
+
+button{
+    outline: none;
+    font-family: $font;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.__para1{
+    
+    p{
+        position: relative;
+        color: #303030;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-left: 10px;
+
+        &:before{
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: -10px;
+            width: 8px;
+            height: 8px;
+            background-color: #e93737;
+        }
+   
+    }
+   
+}
+
+
+@media only screen and(max-width: 1115px){
+    .__para1 {
+        p{
+            &::before{
+                top: 7px;
+            }
+        }
+    }
+
+    .app{
+        padding: .5rem 1rem;
+    }
+
+}
